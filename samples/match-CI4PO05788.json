@@ -1,0 +1,25 @@
+{
+  "poNumber": "CI4PO05788",
+  "status": "mismatch",
+  "reasons": {
+    "overall": ["invoice_date_after_po_date"],
+    "perItem": {
+      "sku:6a942b2053ec3578b6c502a5": [],
+      "sku:6a942b2053ec3578b6c502a7": ["quantities_not_fully_reconciled"],
+      "sku:6a942b2053ec3578b6c502a8": ["quantities_not_fully_reconciled"],
+      "code:18906 psm": ["unmapped_master_sku"]
+    }
+  },
+  "itemLevelBreakdown": [
+    {
+      "itemCode": "18003 psm",
+      "resolvedSku": { "skuErpCode": "18003", "name": "Meatigo Chicken Curry Cut Skinless Frozen 450g" },
+      "poQty": 120,
+      "grnQty": 30,
+      "invoiceQty": 30,
+      "pendingQty": 90,
+      "reasons": ["quantities_not_fully_reconciled"]
+    }
+  ],
+  "note": "Truncated sample — full breakdown covers all 39 line items"
+}

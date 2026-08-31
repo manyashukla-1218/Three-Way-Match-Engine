@@ -1,0 +1,38 @@
+{
+  "poNumber": "CI4PO05788",
+  "status": "mismatch",
+  "poAmount": 863996.59,
+  "totalInvoiced": 743263.69,
+  "totalInvoicedQty": 4705,
+  "totalReceived": 4705,
+  "totalPoQty": 6227,
+  "rows": [
+    {
+      "documentType": "grn",
+      "documentNumber": "CI4000020234",
+      "date": "2026-03-24T00:00:00.000Z",
+      "quantity": 4705,
+      "cumulativeReceivedQty": 4705,
+      "cumulativeInvoicedQty": 0,
+      "pendingDelivery": 1522
+    },
+    {
+      "documentType": "invoice",
+      "documentNumber": "IN25MH2504251",
+      "date": "2026-03-24T00:00:00.000Z",
+      "quantity": 4705,
+      "cumulativeReceivedQty": 4705,
+      "cumulativeInvoicedQty": 4705,
+      "pendingDelivery": 1522
+    },
+    {
+      "documentType": "current_status",
+      "cumulativeReceivedQty": 4705,
+      "cumulativeInvoicedQty": 4705,
+      "pendingDelivery": 1522,
+      "label": "Current Status",
+      "status": "mismatch",
+      "reasons": ["invoice_date_after_po_date"]
+    }
+  ]
+}

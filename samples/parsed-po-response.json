@@ -1,0 +1,14 @@
+{
+  "poNumber": "CI4PO05788",
+  "poDate": "2026-03-17T00:00:00.000Z",
+  "vendorName": "M/s AFP",
+  "items": [
+    {
+      "itemCode": "11423",
+      "description": "psm Cheesy Spicy Veg Momos 24.0 Pieces",
+      "quantity": 50,
+      "skuMaster": "6a942b2053ec3578b6c502a5"
+    }
+  ],
+  "note": "Full item array (39 items) truncated here for sample brevity — full response available via GET /documents/:id"
+}
